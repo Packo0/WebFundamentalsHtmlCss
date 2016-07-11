@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Life in SoftUni</title>
+  <style>
+    table, tr, td {
+      border: 1px solid black;
+      font-size: 20px;
+    }
+
+    body {
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    tr, td {
+      width: 125px;
+      height: 80px;;
+    }
+
+    th {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    tbody tr td:first-child {
+      text-align: left;
+      vertical-align: top;
+    }
+
+    tbody tr td:last-child {
+      text-align: right;
+      vertical-align: top;
+    }
+
+    tbody > tr:nth-child(2) > td:nth-child(1) {
+      vertical-align: top;
+      text-align: center;
+    }
+
+    tbody > tr:nth-child(2) > td:nth-child(3) {
+      vertical-align: bottom;
+      text-align: center;
+    }
+
+    tbody > tr:nth-child(2) > td:last-child {
+      vertical-align: center;
+      text-align: left;
+    }
+
+    tbody > tr:nth-child(3) > td:first-child {
+      text-align: right;
+      vertical-align: bottom;
+    }
+
+    tbody > tr:nth-child(3) > td:nth-child(2) {
+      text-align: left;
+      vertical-align: bottom;
+    }
+
+    #second-table td{
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    tbody > tr:last-child > td:first-child {
+      text-align: right;
+      vertical-align: middle;
+    }
+
+    tbody > tr:last-child > td:last-child {
+      text-align: left;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<table>
+  <thead>
+  <tr>
+    <th colspan="4">
+      SoftUni LIFE
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td colspan="2">
+      Google
+    </td>
+    <td colspan="2">
+      GitHub
+    </td>
+  </tr>
+  <tr>
+    <td>FB</td>
+    <td>GMail</td>
+    <td>YouTube</td>
+    <td>2048</td>
+  </tr>
+  <tr>
+    <td>
+      Food
+    </td>
+    <td colspan="2">
+      Game
+    </td>
+    <td>
+      <table id="second-table">
+        <tbody>
+        <tr>
+          <td>Social Life</td>
+        </tr>
+        <tr>
+          <td>Sleep</td>
+        </tr>
+        </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      Beer &gt;
+    </td>
+    <td>WC</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
