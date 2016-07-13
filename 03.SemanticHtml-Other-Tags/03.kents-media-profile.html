@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kent`s Media Profile</title>
+</head>
+<style>
+  #wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FFC0CB;
+  }
+
+  main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  section {
+    display: inline-block;
+    width: 30%;
+  }
+
+  audio {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+</style>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Profile</h1>
+  </header>
+  <main>
+    <section>
+      <figure>
+        <figcaption>User: Kent</figcaption>
+        <img src="images/KentProfilePic.png" alt="Ford Mustang car">
+
+        <div>Profile completed 60%</div>
+        <meter value="0.6"></meter>
+      </figure>
+    </section>
+    <section class="second">
+      <div>Uploaded Audio Files</div>
+      <audio controls>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source src="http://www.w3schools.com/tags/horse.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+    <section>
+      <p>With my car I can go anywhere. That`s how my car sounds</p>
+      <video width="320" height="240" controls>
+        <source src="http://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+</div>
+</body>
+</html>
