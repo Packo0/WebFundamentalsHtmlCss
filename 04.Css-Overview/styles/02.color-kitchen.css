@@ -1,1 +1,190 @@
-/*** Common ***/
+/*** COMMON ***/
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: sans-serif;
+	background-image: url("../images/colorful_dots_on_black.jpg");
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+/***  NAVIGATION ***/
+body > header {
+	font-size: 2.5em;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	color: #ffff00;
+	font-weight: bold;
+	background: linear-gradient(to left, #0000FF 0%, #0000FF 33%, #008000 33%, #008000 66%, #FF0000 66%, #FF0000 100%);
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+aside {
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	float: left;
+	border-radius: 10px;
+}
+
+nav > header {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 5px;
+
+}
+
+ul {
+	padding-left: 10px;
+	text-indent: 2px;
+	list-style: none;
+	list-style-position: outside;
+}
+
+li:before {
+	content: '✔';
+	margin-right: 10px;
+	background-color: #7ab51d;
+	color: #ffffff;
+	border-radius: 100%;
+	width: 20px;
+	height: 20px;
+}
+
+li:first-child:hover {
+	background: #FF0000;
+}
+
+li:nth-child(2):hover {
+	background: #FFA500;
+}
+
+li:nth-child(3):hover {
+	background: #FFFF00;
+}
+
+li:nth-child(4):hover {
+	background: #008000;
+}
+
+li:nth-child(5):hover {
+	background: #0000FF;
+}
+
+li:nth-child(6):hover {
+	background: #800080;
+}
+
+li {
+	padding: 5px;
+}
+
+li a:visited, footer a {
+	color: #8c8080;
+}
+
+/*** SECTION ***/
+section {
+	width: 700px;
+	float: right;
+}
+
+article > header {
+	font-size: 1.7em;
+	padding: 10px;
+	margin: 10px;
+}
+
+article > header > span {
+	color: #00008b;
+}
+
+article > header > span:before {
+	content: open-quote;
+}
+
+article > header > span:after {
+	content: close-quote;
+}
+
+article {
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+article div:first-letter {
+	font-size: 4em;
+}
+
+article div:first-line {
+	font-style: italic;
+}
+
+#webColors {
+	font-size: 2em;
+	color: #ffffff;
+	background-color: #ff0000;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#webSafeColors {
+	font-size: 2em;
+	color: #000000;
+	background-color: #ffa500;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#RGB {
+	font-size: 2em;
+	color: #000000;
+	background-color: #ffff00;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#RGBA {
+	font-size: 2em;
+	color: #ffffff;
+	background-color: #008000;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#HSLHSV {
+	font-size: 2em;
+	color: #ffffff;
+	background-color: #0000ff;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#lorem {
+	font-size: 2em;
+	color: #ffffff;
+	background-color: #800080;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+footer {
+	margin-top: 10px;
+
+}
+
+footer a {
+	color: #8c8080;
+	font-style: italic;
+	text-decoration: underline;
+}
